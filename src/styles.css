@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'bulma/css/bulma.css';
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    border: none;
+    background-color: none;
+    display: block;
+    width: 100%;
+    color: rgb(69, 69, 189);
+}
+
+.nameLabel {
+    text-align: center;
+    margin-left: 0;
+}
+
+.main {
+    padding-top: 150px;
+}
+
+body {
+    background: url(src/assets/img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
